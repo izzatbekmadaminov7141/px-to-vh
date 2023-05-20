@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../picture/94ca4d332e7b22e0531cfe4bdfbfb2b1.png") no-repeat center;
+  background-size: cover;
+}
+form {
+  background-color: rgba(35, 7, 2, 0.69);
+  padding: 8vh 2.5625vw;
+  border-radius: 10px;
+  width: 70vw;
+  height: 40vh;
+  font-family: "Righteous", cursive;
+  color: #e8e1e1;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+form label {
+  font-size: 2vh;
+}
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+form input {
+  width: 30vw;
+  padding: 0.5vh 0.2604166666666667vw;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.2vh solid #fff;
+  color: #fff;
+  font-size: 4vh;
+  outline: none;
+}
+
+form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+form input::placeholder {
+  color: #ffffff;
+  font-size: 2vh;
+}
+form h1 {
+  font-size: 3vh;
+}
+
+button {
+  padding: 2vh 1.5208333333333334vw;
+  font-size: 2vh;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+p {
+  text-align: center;
+  position: absolute;
+  bottom: -9vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5vh;
+  background-color: #fff;
+  color: #333;
+  padding: 1.0309278350515463vh 1.1904761904761905vw;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.show {
+  bottom: 2.0618556701030926vh;
+  opacity: 1;
+}
+
+span {
+  position: absolute;
+  right: 2vh;
+  bottom: 1.1904761904761905vw;
+  font-size: 1.5vh;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Madaminov Izzatbek" />
+    <meta name="apple-mobile-web-app-status-bar" content="#333" />
+    <meta name="theme-color" content="#333" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./IZZATBEK MADAMINOV 2 (1).png" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- ios support -->
+    <link
+      rel="apple-touch-icon"
+      href="./icons/android-launchericon-72-72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./icons/android-launchericon-96-96.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./icons/android-launchericon-144-144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./icons/android-launchericon-192-192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./icons/android-launchericon-512-512.png"
+    />
+    <title>Pixel to Viewport</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="vh">px to vh</label>
+      <div>
+        <input type="number" id="vh" placeholder="number" name="vh" />
+
+        <h1 class="h1_vh">number vh</h1>
+        <button id="btnCopyOne" disabled="true">Copy</button>
+      </div>
+      <label for="vw">px to vw</label>
+      <div>
+        <input type="number" id="vw" name="vw" placeholder="number" />
+
+        <h1 class="h1_vw">number vw</h1>
+        <button id="btnCopyTwo" disabled="true">Copy</button>
+      </div>
+      <p id="post">Success</p>
+      <span>&copy; DreamTech Solutions</span>
+    </form>
+    <script src="./js/serviceWorker.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
