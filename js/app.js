@@ -48,7 +48,7 @@ window.addEventListener("DOMContentLoaded", () => {
         console.error("Failed to copy text:", error);
         post.textContent = "Error";
         post.style.color = "red";
-        post.classList.add("show");
+        post.classList.add("shows");
       });
   });
 
@@ -58,7 +58,7 @@ window.addEventListener("DOMContentLoaded", () => {
       .writeText(h1_hw.textContent)
       .then(() => {
         post.textContent = "Copied";
-        post.classList.add("show");
+        post.classList.add("shows");
         setTimeout(() => {
           post.classList.remove("show");
         }, 2000);
